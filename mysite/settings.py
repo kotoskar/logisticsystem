@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 #postgres://jxfwcfdzpnrkbf:6b332fa7e65a134aa6230585ea35ad4c84a175f1e52219e463788bca8348eaef@ec2-52-7-58-253.compute-1.amazonaws.com:5432/da8u5mhv4u8i62
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql-psycopg2',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'da8u5mhv4u8i62',
         'USER': 'jxfwcfdzpnrkbf',
         'PASSWORD': '6b332fa7e65a134aa6230585ea35ad4c84a175f1e52219e463788bca8348eaef',
