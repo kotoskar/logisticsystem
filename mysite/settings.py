@@ -77,13 +77,13 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-#postgres://ncwaeimxsvgoel:fcd3d5acf53d99c65e33c2582caf72a21a3a1971d716e499dfef735313e9ccca@ec2-52-7-58-253.compute-1.amazonaws.com:5432/d28c67cm231par
+#postgres://jxfwcfdzpnrkbf:6b332fa7e65a134aa6230585ea35ad4c84a175f1e52219e463788bca8348eaef@ec2-52-7-58-253.compute-1.amazonaws.com:5432/da8u5mhv4u8i62
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd28c67cm231par',
-        'USER': 'ncwaeimxsvgoel',
-        'PASSWORD': 'fcd3d5acf53d99c65e33c2582caf72a21a3a1971d716e499dfef735313e9ccca',
+        'NAME': 'da8u5mhv4u8i62',
+        'USER': 'jxfwcfdzpnrkbf',
+        'PASSWORD': '6b332fa7e65a134aa6230585ea35ad4c84a175f1e52219e463788bca8348eaef',
         'HOST': 'ec2-52-7-58-253.compute-1.amazonaws.com',
         'PORT': 5432,
     }
