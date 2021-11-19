@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html >
+<html lang="ru" dir="ltr">
+<html>
+  <head>
+    <title>Логистическая компания</title>
+    <link href="{% static 'main/style.css' %}" rel="stylesheet">
+  </head>
+  <body>
+    <div class="content">
+      <form class="input" action="main.html" method="post">
+        <div class="container">
+        <div class="demo-flex-spacer"></div>
+        <div class="webflow-style-input">
+          {%csrf_token%}
+          <input name = "inputkey" class="" type="password" placeholder="{{placeholder}}"></input>
+          <button type="submit"><i class="icon ion-android-arrow-forward"></i></button>
+        </div>
+        <div class="demo-flex-spacer"></div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

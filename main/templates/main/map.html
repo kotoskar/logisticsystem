@@ -1,0 +1,13 @@
+{% load static %}
+<html>
+<head>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="{% static 'style1.css' %}">
+  <title>Карта</title>
+</head>
+<body>
+  <iframe src="main/maps/{{ key }}.html" width="" height="">
+  </iframe>
+</body>
+</html>
