@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html >
+<html lang="ru" dir="ltr">
+<html>
+  <head>
+    <title>О нас</title>
+    <link href="{% static 'main/styleabout.css'%}" rel="stylesheet">
+    <div class="copy" style = "position: fixed; font-size:11px;"; >&copy; Права защищены 2021-2022 </div>
+  </head>
+  <body bgcolor="#c6a1ff">
+      <div class="buttons">
+          <div class="btncontainer">
+              <div class="tgbtn">
+                  <a сlass = "floating-button" title="При обнаружении багов или ошибок писать сюда" href="https://t.me/pusevgang"> <img id = "fckblsht" src="https://img.icons8.com/color/2x/telegram-app.png"> </a>
+              </div>
+              <div class="langbtns">
+                <a class="floating-button" href="about.html">RUS</a>
+                <a class="floating-button floating-button1" href="abouteng.html">ENG</a>
+              </div>
+              <a class= "floating-button button-home" href="main.html">HOME</a>
+          </div>
+      </div>
+    <h1> About us </h1>
+    <h2> The system capabilities: </h2>
+    <ul class="list1a">
+      <li> The main idea of a product is a determine the location of drones in real time. Drones can used anywhere and works everywhere with help of this system. </li>
+      <li> The Web-site is used for display all necessary information, user can access from all date remotely with help of the base station. </li>
+      <li> Our system can foolow for 8+ drones and transmit theirs information such as a latitude and a longitude with the good accuracym and also the ressure. </li>
+    </ul>
+    <h2> About a system: </h2>
+    <ul class="list1a">
+      <li> A System determine exact a location with help GPS and Glonass, the accuracy is near 4-6 metres. The Data is transmitted by the technology LPWAN with help of LoRa`s modules. </li>
+      <li> The scheme of receiver includes in Raspberry Pi 3 model B+ 4GB, GPS ATGM336H, BMP280, LoRa SX1278. </li>
+      <li> The scheme of transmitter includes in Raspberry Pi Pico, GPS ATGM336H, BMP280, LoRa SX1278. </li>
+      </ul>
+    <h2> О сайте: </h2>
+    <ul class="list2b">
+    <li> Backend: Django on Python </li>
+      </ul>
+    <a href="https://1drv.ms/w/s!AnNsG-qRg-Mc5AA-aVt6qnBqAIBO?e=i6Hfad" class="button2"><h2>The detailed description (on english cooming soon)</h2></a>
+    </body>
+</html>

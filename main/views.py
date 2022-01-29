@@ -41,3 +41,9 @@ def send(request):
         new = BaseStation(secret_key = key, data = data)
         new.save()
     return HttpResponse()
+
+def about(request):
+    return render(request, 'main/about.html')
+
+def abouteng(request):
+    return render(request, 'main/abouteng.html')

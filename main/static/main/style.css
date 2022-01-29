@@ -3,6 +3,11 @@ html {
   font-size: 10px;
 }
 
+.button1a {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
 *, *:before, *:after {
   box-sizing: inherit;
 }

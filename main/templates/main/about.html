@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html >
+<html lang="ru" dir="ltr">
+<html>
+  <head>
+    <title>О нас</title>
+    <link href="{% static 'main/styleabout.css'%}" rel="stylesheet">
+    <div class="copy" style = "position: fixed; font-size:11px;"; >&copy; Права защищены 2021-2022 </div>
+  </head>
+  <body bgcolor="#c6a1ff">
+  <div class="buttons">
+      <div class="btncontainer">
+          <div class="tgbtn">
+              <a сlass = "floating-button" title="При обнаружении багов или ошибок писать сюда" href="https://t.me/pusevgang"> <img id = "fckblsht" src="https://img.icons8.com/color/2x/telegram-app.png"> </a>
+          </div>
+          <div class="langbtns">
+            <a class="floating-button" href="about.html">RUS</a>
+            <a class="floating-button floating-button1" href="abouteng.html">ENG</a>
+          </div>
+          <a class= "floating-button button-home" href="main.html">HOME</a>
+      </div>
+  </div>
+    <h1> О нас </h1>
+    <h2> Способности системы: </h2>
+    <ul class="list1a">
+      <li> Основной задачей продукта является определение местоположения аппаратов в реальном времени. С помощь этой системы беспилотники могут использоваться где угодно и работает везде. </li>
+      <li> Для отображения всех необходимых данных используется Web - страница, это позволит пользователю удаленно от базовой станции иметь доступ ко всем данным. </li>
+      <li> В нашей системе поддерживается одновременное слежение за 8 дронами, для каждого из них необходимо передать широту и долготу с хорошей точностью, а также давление. </li>
+    </ul>
+    <h2> О системе: </h2>
+    <ul class="list1a">
+      <li> Для определения точного местоположения используется GPS и Глонасс, точность в средем (2-4 м). Данные передаются с помощью способа передачи LPWAN и LoRa модулей</li>
+      <li> Схема приёмника состоит из: Raspberry Pi 3 model B+ 4GB, GPS ATGM336H, BMP280, LoRa SX1278. </li>
+      <li> Схема передатчика состоит из: Raspberry Pi Pico, GPS ATGM336H, BMP280, LoRa SX1278. </li>
+    </ul>
+    <h2> О сайте: </h2>
+    <ul class="list2b">
+      <li> Backend: Django на Python </li>
+    </ul>
+    <a href="https://1drv.ms/w/s!AnNsG-qRg-Mc5AA-aVt6qnBqAIBO?e=i6Hfad" class="button2"><h2>Подробное описание</h2></a>
+    </body>
+</html>
